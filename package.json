@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "express4": "npm install express@4.17.1",
-    "express5": "npm install express@5.0.0-alpha.8"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
+    "express4": "npm:express@^4.17.1",
+    "express5": "npm:express@^5.0.0-alpha.8",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
